@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: bigquery
+    schema: openweather
+    database: analytics-engineers
+    tables:
+      - name: current
+        identifier: one_call_current

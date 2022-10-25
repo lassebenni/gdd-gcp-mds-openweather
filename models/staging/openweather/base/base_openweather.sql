@@ -7,7 +7,7 @@ with source as (
 base as (
 
     select
-        dt,
+        TIMESTAMP_SECONDS(CAST(dt AS INT)) AS timestamp,
         uvi,
         rain,
         temp,

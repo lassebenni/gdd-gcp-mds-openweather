@@ -1,6 +1,6 @@
 with source as (
 
-    select * from {{ source('bigquery', 'current') }}
+    select * from {{ source('bigquery', 'amsterdam') }}
 
 ),
 

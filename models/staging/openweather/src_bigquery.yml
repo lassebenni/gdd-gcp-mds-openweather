@@ -5,5 +5,5 @@ sources:
     schema: openweather
     database: analytics-engineers
     tables:
-      - name: current
+      - name: amsterdam
         identifier: one_call_current
